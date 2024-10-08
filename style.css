@@ -398,6 +398,45 @@ footer ul a:hover{
 }
 
 
+/* ================================= SINGLE POST ====================================== */
+.singlepost{
+    margin: 6rem 0 2rem;
+}
+
+.singlepost__container{
+    width: var(--form-width);
+    background: var(--color-gray-900);
+    padding: 1rem 2rem 2rem;
+}
+
+.singlepost__thumbnail{
+    margin: 1.5rem 0 1rem;
+}
+
+.singlepost__container p{
+    margin-top: 1rem;
+    line-height: 1.7;
+}
+
+
+/* ================================= CATEGORY-POSTS ====================================== */
+.category__title{
+    height: 10rem;
+    margin-top: 4.5rem;
+    background: var(--color-gray-900);
+    display: grid;
+    place-items: center;
+}
+
+
+/* ================================= EMPTY PAGE (about, services etc) ====================================== */
+
+.empty__page{
+    height: 70vh;
+    /* text-align: center; */
+    display: grid;
+    place-content: center;
+}
 
 
 
@@ -562,5 +601,10 @@ footer ul a:hover{
 
     .search__bar-container{
         width: var(--container-width-md);
+    }
+
+    .singlepost__container{
+        background-color: transparent;
+        padding: 0;
     }
 }
